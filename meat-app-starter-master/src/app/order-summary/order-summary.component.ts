@@ -12,4 +12,9 @@ export class OrderSummaryComponent implements OnInit {
   ngOnInit() {
   }
 
+  selecionado(evento: any)
+  {
+    console.log(`Selecionado ${evento} estrela(s)`);
+  }
+
 }
